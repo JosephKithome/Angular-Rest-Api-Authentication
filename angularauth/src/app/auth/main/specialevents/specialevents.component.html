@@ -1,0 +1,12 @@
+<div class="row pt-6">
+    <div class="col-md-3" *ngFor="let event of specialEvents">
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYcCdgN4an4Etevl0dwm3-8tijd1o_VqsVmgOEfzeg4_zqUJGV-gsLS08dWWsUq7T0uA&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{event.name}}</h5>
+              <p class="card-text">{{event.description}}</p>
+              <a href="#" class="btn btn-primary">{{event.date}}</a>
+            </div>
+          </div>
+    </div>
+</div>
